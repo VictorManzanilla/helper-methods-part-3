@@ -70,6 +70,7 @@
   </div>
 </nav>
 
+<div class="container mt-3">
 <% if notice.present? %>
  <div class="alert alert-success" role="alert">
       <%= notice %>
@@ -82,5 +83,6 @@
     </div>
     <%end%>
     <%= yield %>
+    </div>
   </body>
 </html>
